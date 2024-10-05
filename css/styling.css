@@ -1,0 +1,58 @@
+body{
+    height: 1500px;
+}
+
+#total-price{
+    position: absolute;
+    position: fixed;
+    z-index: 10;
+    right: 1rem;
+    width: 120px; height: 90px; border: 2px solid gray;
+    text-align: center;
+    padding: 1rem;
+    background-color: antiquewhite;
+    border-radius: 5%;
+}
+.col-4{
+    height: 350px;
+    margin: 1.5rem 0rem !important;
+}
+.div-products{
+    background-color: #d2cdab;
+    width: 100% ;
+    height: 100%;
+    border: 2px solid gray;
+    border-radius: 3% ; 
+    padding: 1rem;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+.div-products:hover{
+    transform: translateY(-10px);
+    box-shadow: 5px -5px 10px rgba(255, 150, 0, 0.6);
+}
+
+figure .img-product{
+    width: 100%;
+    height: 150px ;
+}
+
+figure .img-product img{
+    width: 100%;
+    height: 100% ;
+}
+.show-price {
+    border: 1px solid black; border-radius: 1rem;
+    cursor: pointer;
+    background-color: rgb(255, 200, 0);
+} 
+.show-price:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.adding-to-card{
+    width: 200px; height: 20px;
+    transform: translateY(-13px);
+    color: white ;
+}
+
